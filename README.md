@@ -1,6 +1,5 @@
 Georgetown-University-Libraries
 ===============================
 
-# Catalog of Existing Projects and Code Samples
-
+View the releases link for an overview of the code that is available from Georgetown University Libraries.
 
