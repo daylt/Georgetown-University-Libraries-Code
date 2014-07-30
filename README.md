@@ -11,4 +11,4 @@ View the [releases](https://github.com/Georgetown-University-Libraries/Georgetow
 
 ## Code Samples
 
-*
+* [Compare Sierra Permissions](https://gist.github.com/terrywbrady/964caf23f91e27d01292)
