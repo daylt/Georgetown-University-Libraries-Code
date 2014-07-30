@@ -5,3 +5,11 @@ Georgetown's Library Information Technology group benefits from a number of open
 
 View the releases link for an overview of the code that is available from Georgetown University Libraries.
 
+## Projects
+
+* https://github.com/Georgetown-University-Libraries/File-Analyzer
+* 
+
+## Code Samples
+
+*
