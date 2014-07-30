@@ -9,6 +9,7 @@ View the releases link for an overview of the code that is available from George
 
 * https://github.com/Georgetown-University-Libraries/File-Analyzer
 * https://github.com/Georgetown-University-Libraries/batch-tools
+* https://github.com/Georgetown-University-Libraries/gusuper
 
 ## Code Samples
 
