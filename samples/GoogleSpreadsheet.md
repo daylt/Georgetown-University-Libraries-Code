@@ -38,5 +38,8 @@ Sample: https://spreadsheets.google.com/feeds/cells/1hbHqrnYa4oMUquZcq8WkTJk0kI0
 
 https://rawgit.com/Georgetown-University-Libraries/Georgetown-University-Libraries-Code/master/samples/GoogleSpreadsheet.html
 
-### Code example
+### Code example - read data and display as a table
 https://github.com/Georgetown-University-Libraries/Georgetown-University-Libraries-Code/blob/master/samples/GoogleSpreadsheet.html
+
+### Code example - add custom filters to the display
+https://github.com/Georgetown-University-Libraries/Georgetown-University-Libraries-Code/blob/master/samples/GoogleSpreadsheetFilter.html

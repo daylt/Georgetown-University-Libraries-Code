@@ -8,19 +8,20 @@
       spData = json.feed.entry;
   }
   
-  function drawCell(tr, val) {
-      var td = $("<td/>");
+  function drawCell(tr, val, isHeader) {
+      var td = $(isHeader ? "<th/>" : "<td/>");
       tr.append(td);
       td.append(val);
       return td;
   }
-  function drawRow(table, rowData) {
+  function drawRow(table, rowData, isHeader) {
 	  if (rowData == null) return null;
 	  if (rowData.length == 0) return null;
 	  var tr = $("<tr/>");
+	  if (isHeader) tr.addClass("head");
 	  table.append(tr);
 	  for(var c=0; c<rowData.length; c++) {
-		  drawCell(tr, rowData[c]);
+		  drawCell(tr, rowData[c], ((c == 0) || isHeader));
 	  }
 	  return tr;
   }
@@ -35,17 +36,19 @@
       var data = spData;
       var table = drawTable(parent);
       var rowData = [];
+      var row = 0;
       
       for(var r=0; r<data.length; r++) {
           var cell = data[r]["gs$cell"];
           var val = cell["$t"];
           if (cell.col == 1) {
-              drawRow(table, rowData);
+              drawRow(table, rowData, (row == 1));
               rowData = [];
+              row++;
           }
           rowData.push(val);
       }
-      drawRow(table, rowData);
+      drawRow(table, rowData, (row == 1));
   }
   $(document).ready(function(){
       readData($("#data"));
@@ -55,12 +58,8 @@
 <script src="https://spreadsheets.google.com/feeds/cells/1hbHqrnYa4oMUquZcq8WkTJk0kI0t9scGBwro-EH-ALA/1/public/values?alt=json-in-script&callback=doData"></script>
 <style type="text/css">
   table {border-collapse: collapse; width: 100%;}
-  th, td {border: thin solid black; padding: 3px;}
+  th, td {border: thin solid black; padding: 3px; text-align: left}
   tr.head th, tr.head td {background-color: #EDEDED; border-bottom: 4px double black;}
-  span.linetitle {font-weight: bold;}
-  div.lineclass {font-style: italic;}
-  .title, .result {width: 80%;}
-  .notes {width: 15%;}
   h1 {text-align: center;}
   body {margin: 12px; font-size: 12px;}
 </style>
