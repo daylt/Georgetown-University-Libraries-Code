@@ -34,12 +34,14 @@ The Published JSON URL + callback will look like this: `https://spreadsheets.goo
 
 Sample: https://spreadsheets.google.com/feeds/cells/1hbHqrnYa4oMUquZcq8WkTJk0kI0t9scGBwro-EH-ALA/1/public/values?alt=json-in-script&callback=doData
 
-### View the spreadsheet parsed by JavaScript
+### View the spreadsheet parsed by JavaScript (display as a simple table)
 
-https://rawgit.com/Georgetown-University-Libraries/Georgetown-University-Libraries-Code/master/samples/GoogleSpreadsheet.html
+Example: https://rawgit.com/Georgetown-University-Libraries/Georgetown-University-Libraries-Code/master/samples/GoogleSpreadsheet.html
 
-### Code example - read data and display as a table
-https://github.com/Georgetown-University-Libraries/Georgetown-University-Libraries-Code/blob/master/samples/GoogleSpreadsheet.html
+Code: https://github.com/Georgetown-University-Libraries/Georgetown-University-Libraries-Code/blob/master/samples/GoogleSpreadsheet.html
 
-### Code example - add custom filters to the display
-https://github.com/Georgetown-University-Libraries/Georgetown-University-Libraries-Code/blob/master/samples/GoogleSpreadsheetFilter.html
+### View the spreadsheet parsed by JavaScript (display as a simple table with filters)
+
+Example: https://rawgit.com/Georgetown-University-Libraries/Georgetown-University-Libraries-Code/master/samples/GoogleSpreadsheetFilter.html
+
+Code: https://github.com/Georgetown-University-Libraries/Georgetown-University-Libraries-Code/blob/master/samples/GoogleSpreadsheetFilter.html
