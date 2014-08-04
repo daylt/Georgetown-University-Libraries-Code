@@ -15,3 +15,4 @@ View the [releases](https://github.com/Georgetown-University-Libraries/Georgetow
 
 * [Compare Sierra Permissions](https://gist.github.com/terrywbrady/964caf23f91e27d01292)
 * [Parse a Google Spreadsheet with JavaScript](https://github.com/Georgetown-University-Libraries/Georgetown-University-Libraries-Code/blob/master/samples/GoogleSpreadsheet.md)
+* [Group Summon Search Results into 3 Groups](https://gist.github.com/terrywbrady/aac3598eb41783cd9794)
