@@ -40,8 +40,12 @@ Example: https://rawgit.com/Georgetown-University-Libraries/Georgetown-Universit
 
 Code: https://github.com/Georgetown-University-Libraries/Georgetown-University-Libraries-Code/blob/master/samples/GoogleSpreadsheet.html
 
+JsFiddle: http://jsfiddle.net/terrywbrady/2ufjmwqu/
+
 ### View the spreadsheet parsed by JavaScript (display as a simple table with filters)
 
 Example: https://rawgit.com/Georgetown-University-Libraries/Georgetown-University-Libraries-Code/master/samples/GoogleSpreadsheetFilter.html
 
 Code: https://github.com/Georgetown-University-Libraries/Georgetown-University-Libraries-Code/blob/master/samples/GoogleSpreadsheetFilter.html
+
+JsFiddle: http://jsfiddle.net/terrywbrady/op8g6drb/
