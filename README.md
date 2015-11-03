@@ -5,6 +5,7 @@ View the [releases](https://github.com/Georgetown-University-Libraries/Georgetow
 ## Projects
 
 * https://github.com/Georgetown-University-Libraries/File-Analyzer
+* https://github.com/DSpace-Labs/DSpace-REST-Reports
 * https://github.com/Georgetown-University-Libraries/batch-tools
 * https://github.com/Georgetown-University-Libraries/gusuper
 * https://github.com/Georgetown-University-Libraries/GUExtractSierraBibs
